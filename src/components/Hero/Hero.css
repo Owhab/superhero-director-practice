@@ -1,0 +1,32 @@
+.hero {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: lightgray;
+}
+.hero-img {
+  height: 200px;
+  border: 2px solid tomato;
+  width: 180px;
+  border-radius: 30px;
+}
+.hero-details {
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px 0px;
+}
+.hero-details h3,
+h4,
+p {
+  padding: 0;
+  margin: 5px;
+}
+.cart-btn {
+  background-color: lightsalmon;
+  width: 150px;
+  height: 40px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

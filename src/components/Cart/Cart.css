@@ -1,0 +1,9 @@
+.cart {
+  background-color: lightpink;
+  height: 200px;
+  width: 335px;
+}
+.cart-content {
+  text-align: left;
+  margin-left: 20px;
+}

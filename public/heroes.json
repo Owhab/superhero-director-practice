@@ -1,0 +1,65 @@
+[
+    {
+       "name":"Joseph Vijay",
+       "designation":"Indian actor",
+       "age":47,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vijay_at_the_Nadigar_Sangam_Protest.jpg/220px-Vijay_at_the_Nadigar_Sangam_Protest.jpg",
+       "salary":300000
+    },
+    {
+       "name":"Dhanush",
+       "designation":"Indian actor",
+       "age":38,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Dhanush_62nd_Britannia_Filmfare_South_Awards_%28cropped%29.jpg/200px-Dhanush_62nd_Britannia_Filmfare_South_Awards_%28cropped%29.jpg",
+       "salary":200000
+    },
+    {
+       "name":"Suriya",
+       "designation":"Indian actor",
+       "age":46,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Suriya2011.jpg/180px-Suriya2011.jpg",
+       "salary":250000
+    },
+    {
+       "name":"Prabhas",
+       "designation":"Indian actor",
+       "age":41,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Baahubali_movie_hindi_trailer_launch_in_mumbai_photos.jpg/220px-Baahubali_movie_hindi_trailer_launch_in_mumbai_photos.jpg",
+       "salary":270000
+    },
+    {
+       "name":"Vishal",
+       "designation":"Indian film actor",
+       "age":44,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Vishal2018.jpg/250px-Vishal2018.jpg",
+       "salary":280000
+    },
+    {
+       "name":"Arvind Swamy",
+       "designation":"Indian actor",
+       "age":51,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Aravind_Swamy_at_63rd_Filmfare_Awards_2016_%28South%29_Press_Meet.jpg/220px-Aravind_Swamy_at_63rd_Filmfare_Awards_2016_%28South%29_Press_Meet.jpg",
+       "salary":275000
+    },
+    {
+       "name":"Mahesh Babu",
+       "designation":"Indian actor",
+       "age":46,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mahesh_Babu_in_Spyder_%28cropped%29.jpg/220px-Mahesh_Babu_in_Spyder_%28cropped%29.jpg",
+       "salary":320000
+    },
+    {
+       "name":"Allu Arjun",
+       "designation":"Indian actor",
+       "age":38,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Allu_Arjun_at_62nd_Filmfare_awards_south.jpg/220px-Allu_Arjun_at_62nd_Filmfare_awards_south.jpg",
+       "salary":330000
+    },
+    {
+       "name":"Vijay Deverakonda",
+       "designation":"Indian actor",
+       "age":32,
+       "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Vijay_Devarakonda_at_the_Pre-release_event_of_Savyasachi.png/220px-Vijay_Devarakonda_at_the_Pre-release_event_of_Savyasachi.png",
+       "salary":300000
+    }
+ ]
