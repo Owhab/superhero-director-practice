@@ -2,8 +2,9 @@ import React from 'react';
 import './Hero.css'
 
 const Hero = (props) => {
-    console.log(props);
     const {name, age, picture, designation, salary} = props.hero;
+    console.log(props)
+
 
     return (
         <div className = 'hero'>
@@ -14,7 +15,7 @@ const Hero = (props) => {
             <h4>Designation: {designation}</h4>
             <p>Salary: {salary}</p>
             </div>
-            <button className = 'cart-btn' >Add to Cart</button>
+            <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' >Add to Cart</button>
         </div>
     );
 };
