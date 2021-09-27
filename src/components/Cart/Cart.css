@@ -1,9 +1,17 @@
 .cart {
   background-color: lightpink;
-  height: 200px;
+  height: 400px;
   width: 335px;
+  position: fixed;
 }
 .cart-content {
   text-align: left;
   margin-left: 20px;
+}
+.hero-list {
+  text-align: left;
+  padding-left: 40px;
+}
+.hero-list li {
+  list-style: decimal;
 }

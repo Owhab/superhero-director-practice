@@ -21,9 +21,15 @@ const Cart = props => {
            <h2>Cart Section</h2>
             <div className= 'cart-content'>
                 <h3>Total Heroes: {props.cart.length}</h3>
-                <h2>Total Salary: {salary}</h2>               
+                <h2>Total Salary: $ {salary}</h2>               
 
             </div>
+            <div className = 'hero-list'>
+            {
+                cart.map(name => <li> {name.name} </li> )
+            }
+            </div>
+
             
         </div>
     );

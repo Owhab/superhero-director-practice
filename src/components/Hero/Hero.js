@@ -13,9 +13,9 @@ const Hero = (props) => {
             <h3>Name: {name}</h3>
             <h4>Age: {age}</h4>
             <h4>Designation: {designation}</h4>
-            <p>Salary: {salary}</p>
+            <p>Salary: $ {salary}</p>
             </div>
-            <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' >Add to Cart</button>
+            <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' >Pay Salary</button>
         </div>
     );
 };
