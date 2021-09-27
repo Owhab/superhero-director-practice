@@ -2,9 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = props => {
-    console.log(props);
     const {cart} = props;
-    console.log(cart);
     let salary = 0;
     for(const hero of cart){
         salary = salary + hero.salary;
@@ -26,7 +24,10 @@ const Cart = props => {
             </div>
             <div className = 'hero-list'>
             {
-                cart.map(name => <li> {name.name} </li> )
+                cart.map(name => <li 
+                key = {name.name}
+                > {name.name}
+                 </li> )
             }
             </div>
 

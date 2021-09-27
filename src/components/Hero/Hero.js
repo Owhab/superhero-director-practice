@@ -1,10 +1,12 @@
 import React from 'react';
 import './Hero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = (props) => {
     const {name, age, picture, designation, salary} = props.hero;
-    console.log(props)
 
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
 
     return (
         <div className = 'hero'>
@@ -15,7 +17,7 @@ const Hero = (props) => {
             <h4>Designation: {designation}</h4>
             <p>Salary: $ {salary}</p>
             </div>
-            <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' >Pay Salary</button>
+            <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' > {element} Pay Salary </button>
         </div>
     );
 };

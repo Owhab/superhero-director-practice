@@ -2,13 +2,16 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Cart from '../Cart/Cart';
 import Hero from '../Hero/Hero';
-import Heroes from '../Heroes/Heroes';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Show.css'
 
 const Show = () => {
 
     const [heroes, setHeroes] = useState([]);
     const [cart, setCart] = useState([]);
+
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
 
     useEffect(()=>{
         fetch('./heroes.json')
