@@ -18,6 +18,7 @@ const Hero = (props) => {
             <h3>Name: {name}</h3>
             <h4>Age: {age}</h4>
             <h4>Designation: {designation}</h4>
+            <h3>Country: India</h3>
             <p>Salary: $ {salary}</p>
             </div>
             <button onClick = {()=> props.handleCart(props.hero)} className = 'cart-btn' > {element} Pay Salary </button>
